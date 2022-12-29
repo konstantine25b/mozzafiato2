@@ -1,0 +1,62 @@
+.navbar-brand img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+body{
+    background-color: #7d642c  !important;
+    margin: 0;
+
+}
+
+
+.navbar-brand{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ad9254 !important;
+}
+.sandwichesLogo{
+    color: #7d642c ;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 86px !important;
+}
+.foodCards{
+    width: 95% !important;
+    margin-top: 20px !important;
+    height: 200px !important;
+    background-color: #8e7c56 !important;
+    border-radius: 20px!important;
+}
+
+.foodImg{
+    height:  100px !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 10px!important;
+}
+.textCard{
+    height: 100px!important;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+
+}
+.leftSideTextCard{
+    width: 30%;
+}
+.rightSideTextCard{
+    width: 60%;
+
+}
+.card-title{
+    color: white !important;
+}
+.card-text{
+    color: white !important;
+}

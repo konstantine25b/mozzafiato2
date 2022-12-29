@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerMainFrontside{
+    width :30%;
+    height: 100%;
+    display:block;
+   
+   
+}
+.companyLogo{
+    width: 100%;
+    height: 45%;
+    padding-top: 10px;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.companyLogo img {
+    width: 40%;
+
+}
+.companyName{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.companyName1{
+    font-size: large;
+
+}
+.menu{
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+.leftMenu{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftMenu img{
+   width: 100% ;
+  
+}
+.rightMenu{
+    width: 45%;
+    display: block;
+    
+}
+.rightMenuTop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    height: 30%;
+}
+.rightMenuBottom{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 450px){
+
+
+}
